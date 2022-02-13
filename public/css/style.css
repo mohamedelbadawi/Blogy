@@ -1,0 +1,57 @@
+body {
+    background: #F0F0F0;
+    height: 100vh;
+}
+
+nav {
+    background: white;
+}
+
+.search-form {
+    width: 50%;
+    padding-left: 20vh;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+    max-width: 10vw;
+}
+
+#sidebar .nav-item {
+    text-align: center;
+    padding: 25px 0;
+}
+
+#sidebar .nav-item a {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#sidebar .nav-item a.active {
+    color: blue;
+}
+
+.navbar-brand {
+    text-align: center;
+    padding-left: 20px;
+    top: 30px;
+}
+
+.vertical-nav {
+    margin-top: 20vh;
+}
+
+.main {
+    padding: 2rem;
+    padding-top: calc(4rem+74px);
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+#summernote {
+    color: white;
+}
